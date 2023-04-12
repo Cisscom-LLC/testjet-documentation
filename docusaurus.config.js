@@ -78,7 +78,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: '/contact',
+            href: '/docs/intro',
             label: 'Submit a ticket',
             position: 'right',
           },
