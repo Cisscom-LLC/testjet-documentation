@@ -78,8 +78,13 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: '/contact',
+            label: 'Submit a ticket',
+            position: 'right',
+          },
+          {
+            href: 'https://app.testjet.ai',
+            label: 'Login',
             position: 'right',
           },
         ],
@@ -127,7 +132,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TestJet, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
