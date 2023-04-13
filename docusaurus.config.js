@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Cisscom-LLC/testjet-documentation/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Cisscom-LLC/testjet-documentation/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -74,8 +74,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Gettingn Started',
           },
+          {to: '/docs/category/tutorial---basics', label: 'Tutorial', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: '/docs/intro',
@@ -127,7 +128,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/cisscom-llc',
               },
             ],
           },
