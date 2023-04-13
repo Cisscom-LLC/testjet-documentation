@@ -140,8 +140,8 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       algolia: {
-        appId: '0X3IBPF0AI',
-        apiKey: 'd148661170f493d64f274e44ae748455',
+        appId: 'CE5YKEHF1K',
+        apiKey: 'f9085c268a0eebb2cbed9c6f8d83331a',
         indexName: 'TestJet',
         searchPagePath: 'search',
       }
