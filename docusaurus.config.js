@@ -76,63 +76,63 @@ const config = {
             position: 'left',
             label: 'Getting Started',
           },
-          {to: '/docs/category/tutorial---basics', label: 'Tutorial', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: '/docs/intro',
-            label: 'Submit a ticket',
-            position: 'right',
-          },
-          {
-            href: 'https://app.testjet.ai',
-            label: 'Login',
-            position: 'right',
-          },
+          // {to: '/docs/category/tutorial---basics', label: 'Tutorial', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
+          // {
+          //   href: '/docs/intro',
+          //   label: 'Submit a ticket',
+          //   position: 'right',
+          // },
+          // {
+          //   href: 'https://app.testjet.ai',
+          //   label: 'Login',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
         style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/cisscom-llc',
-              },
-            ],
-          },
-        ],
+        // links: [
+        //   {
+        //     title: 'Docs',
+        //     items: [
+        //       {
+        //         label: 'Tutorial',
+        //         to: '/docs/intro',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'Community',
+        //     items: [
+        //       {
+        //         label: 'Stack Overflow',
+        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //       },
+        //       {
+        //         label: 'Discord',
+        //         href: 'https://discordapp.com/invite/docusaurus',
+        //       },
+        //       {
+        //         label: 'Twitter',
+        //         href: 'https://twitter.com/docusaurus',
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: 'More',
+        //     items: [
+        //       {
+        //         label: 'Blog',
+        //         to: '/blog',
+        //       },
+        //       {
+        //         label: 'GitHub',
+        //         href: 'https://github.com/cisscom-llc',
+        //       },
+        //     ],
+        //   },
+        // ],
         copyright: `Copyright © ${new Date().getFullYear()} TestJet, Inc.`,
       },
       prism: {
