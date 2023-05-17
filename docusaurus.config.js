@@ -78,11 +78,11 @@ const config = {
           },
           // {to: '/docs/category/tutorial---basics', label: 'Tutorial', position: 'left'},
           // {to: '/blog', label: 'Blog', position: 'left'},
-          // {
-          //   href: '/docs/intro',
-          //   label: 'Submit a ticket',
-          //   position: 'right',
-          // },
+          {
+            href: 'https://support.testjet.ai/support/home',
+            label: 'Documentation',
+            position: 'right',
+          },
           // {
           //   href: 'https://app.testjet.ai',
           //   label: 'Login',
