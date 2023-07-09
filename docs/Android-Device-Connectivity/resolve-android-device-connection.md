@@ -16,6 +16,6 @@ List of devices attached
 8. Else if it shows *“unauthorized”* instead of “device”, there should be a prompt asking you to allow the device for usb debugging on your device.
 9. Enable the option *“Always allow”* and then press Allow or Ok from the device.
     ![](../../static/img/allow_debugging.png)
-10. If you do not see such a prompt and your device is shown as *“unauthorized”*, revoke usb debugging authorizations from developer settings of your phone and try from step 1 again.
+10. If you do not see such a prompt and your device is shown as *“unauthorized”*, revoke usb debugging authorizations from developer settings of your phone, restart/reboot the phone and try from step 1 again.
 
 
